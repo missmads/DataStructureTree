@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{19A963C5-9B04-4BC2-A83C-9350EB223CD5}</ProjectGuid>
+    <ProjectGuid>{C3BD35B8-2B92-4136-9577-D69700626170}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DataStructureTreePeerGradeTask</RootNamespace>
-    <AssemblyName>DataStructureTreePeerGradeTask</AssemblyName>
+    <RootNamespace>BinarySearchTree</RootNamespace>
+    <AssemblyName>BinarySearchTree</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="Treevalues.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
